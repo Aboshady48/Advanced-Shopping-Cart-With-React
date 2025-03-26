@@ -6,6 +6,7 @@ import Store from './Pages/Store'
 import About from './Pages/About'
 const App = () => {
   return (
+    
     <div className='container'>
       <Navbar/>
       <Routes>

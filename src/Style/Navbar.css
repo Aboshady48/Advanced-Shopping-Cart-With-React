@@ -1,0 +1,117 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color: #27548A; /* Primary color */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo Styling */
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #DDA853; /* Accent color */
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #DDA853; /* Accent color */
+  }
+  
+  /* Responsive Navbar */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .nav-links {
+      margin-top: 10px;
+      flex-direction: column;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+  }
+  /* Reset all margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar {
+  width: 100%;
+  position: fixed; /* Sticks the navbar to the top */
+  top: 0;
+  left: 0;
+  background-color: #27548A;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensures navbar stays above other elements */
+}
+
+/* Push content below navbar */
+.container {
+  margin-top: 70px; /* Adjust according to the navbar height */
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #DDA853;
+}

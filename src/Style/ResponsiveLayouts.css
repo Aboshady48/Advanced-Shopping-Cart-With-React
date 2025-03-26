@@ -1,0 +1,34 @@
+/* Mobile-first: Making the content flow in one column for smaller screens */
+@media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    .btn {
+      width: 100%;
+      padding: 15px;
+    }
+  }
+  
+  /* Larger screens: If the screen width is above 768px, the layout adjusts */
+  @media (min-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .btn {
+      padding: 10px 25px;
+    }
+  }
+  
+  /* For very large screens, you can add more tweaks */
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
+  

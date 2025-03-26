@@ -1,0 +1,37 @@
+/* Container for the entire page */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Content Section Styling */
+  h1, h2, h3 {
+    color: #27548A;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  /* Add some spacing between sections */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  /* Buttons */
+  .btn {
+    background-color: #DDA853; /* accent color */
+    color: #183B4E; /* text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #27548A; /* hover effect for buttons */
+    color: white;
+  }
+  

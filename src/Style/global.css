@@ -1,0 +1,84 @@
+/* Reset all margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Make the entire page use a column layout */
+  body, html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5EEDC; /* Background color */
+  }
+  
+  /* Fixed Navbar at the Top */
+  .navbar {
+    width: 100%;
+    position: fixed; /* Stick to the top */
+    top: 0;
+    left: 0;
+    background-color: #27548A;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  /* Ensure Content Starts Right Below Navbar */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 70px; /* Same height as navbar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Align text properly */
+    padding: 20px;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #DDA853;
+  }
+  
+  /* Buttons */
+  .btn {
+    background-color: #DDA853;
+    color: #183B4E;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #27548A;
+    color: white;
+  }
+  
